@@ -17,6 +17,7 @@ The goal is to identify sensitive information exposed through SNMP, including:
 ## Tools Used
 
 - snmpwalk
+- onesixtyone
 - grep
 - tee
 

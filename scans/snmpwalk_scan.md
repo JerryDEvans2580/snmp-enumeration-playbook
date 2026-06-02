@@ -136,6 +136,15 @@ The most valuable information was discovered in:
 Later sections primarily contained counters, statistics, and protocol telemetry.
 
 ---
+## Lessons During Enumeration
+
+The full SNMP walk generated a large amount of output.
+
+Most valuable information appeared near the beginning of the enumeration output.
+
+After identifying host information and active services, continuing the full walk produced mostly counters and monitoring data.
+
+This demonstrated the value of transitioning from broad enumeration to targeted OID-based enumeration.
 
 ## Conclusion
 

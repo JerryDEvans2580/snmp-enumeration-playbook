@@ -40,13 +40,15 @@ Discovered network interfaces:
 * VMware VMXNET3 Ethernet Controller
 
 Discovered IP addresses:
-
+```bash
 * <TARGET IP>
 * 127.0.0.1
-
+```
+```bash
 Discovered gateway:
 
 * <TARGET IP>
+```
 
 ### Exposed Services
 
@@ -64,6 +66,21 @@ The TCP listener table revealed the following services:
 | 33060 | MySQL X Protocol |
 
 ---
+
+## Attack Surface Identified
+
+The following services were identified through SNMP:
+
+- SSH
+- SMTP
+- POP3
+- IMAP
+- IMAPS
+- POP3S
+- MySQL
+- MySQL X Protocol
+
+These services represent potential entry points for further enumeration and vulnerability assessment.
 
 ## Security Impact
 
@@ -101,6 +118,19 @@ This information can be used to support:
 SNMP enumeration is not simply collecting large amounts of output.
 
 The primary goal is to identify valuable intelligence that can support later phases of an assessment, including service discovery, user enumeration, and vulnerability research.
+
+## Why SNMP Matters
+
+Unlike traditional port scanning, SNMP can reveal:
+
+- Hostnames
+- Administrative contacts
+- Operating system details
+- Network configuration
+- Running services
+- Internal addressing information
+
+This makes SNMP a valuable source of reconnaissance data during a penetration test.
 
 ## Next Steps
 

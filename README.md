@@ -116,10 +116,17 @@ This information can be used to support:
 
 ## Tools Used
 
-* snmpwalk
-* grep
-* tee
-* less
+- snmpwalk
+- grep
+- tee
+- less
+
+## Techniques Used
+
+- SNMP Enumeration
+- Information Disclosure Analysis
+- Service Discovery
+- Attack Surface Mapping
 
 ---
 
